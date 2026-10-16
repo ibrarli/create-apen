@@ -1,0 +1,47 @@
+{
+  "name": "create-apen",
+  "version": "0.1.0",
+  "description": "Scaffold production-ready MERN, PERN, Next.js + .NET, Vue + FastAPI and more — with your folder structure, naming conventions, Docker and docs. By Apen Apps.",
+  "type": "module",
+  "bin": {
+    "create-apen": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "create",
+    "scaffold",
+    "cli",
+    "boilerplate",
+    "mern",
+    "pern",
+    "nextjs",
+    "dotnet",
+    "fastapi",
+    "vue",
+    "react",
+    "docker",
+    "apen"
+  ],
+  "author": "Apen Apps",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrarli/create-apen.git"
+  },
+  "homepage": "https://github.com/ibrarli/create-apen#readme",
+  "dependencies": {
+    "@clack/core": "^1.5.1",
+    "picocolors": "^1.1.1",
+    "sucrase": "^3.35.1"
+  }
+}
