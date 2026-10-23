@@ -1,6 +1,29 @@
-# create-apen
+<p align="center">
+  <a href="https://www.apenapps.com">
+    <img alt="create-apen by Apen Apps: scaffold production-ready full-stack apps with your folder structure, naming and architecture" src="https://raw.githubusercontent.com/ibrarli/create-apen/main/.github/assets/banner.svg" width="100%">
+  </a>
+</p>
 
-Scaffold a production-ready project in one command, organised the way **you** like it.
+<p align="center">
+  <a href="https://www.npmjs.com/package/create-apen"><img alt="npm version" src="https://img.shields.io/npm/v/create-apen?color=cb3837&logo=npm"></a>
+  <a href="https://www.npmjs.com/package/create-apen"><img alt="npm downloads" src="https://img.shields.io/npm/dm/create-apen"></a>
+  <a href="https://github.com/ibrarli/create-apen/actions/workflows/test.yml"><img alt="tests" src="https://github.com/ibrarli/create-apen/actions/workflows/test.yml/badge.svg"></a>
+  <img alt="node" src="https://img.shields.io/node/v/create-apen">
+  <a href="LICENSE"><img alt="license" src="https://img.shields.io/github/license/ibrarli/create-apen"></a>
+</p>
+
+<p align="center">
+  <a href="#quick-start">Quick start</a> ·
+  <a href="#what-you-can-generate">What you can generate</a> ·
+  <a href="#cli-options">CLI options</a> ·
+  <a href="https://www.apenapps.com">apenapps.com</a>
+</p>
+
+---
+
+```bash
+npm create apen@latest
+```
 
 `create-apen` asks a few questions (stack, language, styling, state management, how you organise files, naming convention, backend architecture, database, extras), then it:
 
@@ -141,6 +164,16 @@ src/
 
 Templates are written once in TypeScript. JavaScript variants come from stripping the types with [sucrase](https://github.com/alangpierce/sucrase), so the two never drift apart.
 
+## Contributing
+
+Issues and pull requests are welcome at [github.com/ibrarli/create-apen](https://github.com/ibrarli/create-apen/issues). Run `npm test` before opening a PR.
+
 ## License
 
-MIT © Apen Apps
+MIT © [Apen Apps](https://www.apenapps.com)
+
+---
+
+<p align="center">
+  Made by <a href="https://www.apenapps.com"><b>Apen Apps</b></a> · <a href="https://www.apenapps.com">www.apenapps.com</a>
+</p>
